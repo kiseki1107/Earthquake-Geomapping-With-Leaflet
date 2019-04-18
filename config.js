@@ -1,0 +1,4 @@
+// API key
+const API_KEY = "pk.eyJ1Ijoia2lzZWtpMTEwNyIsImEiOiJjanRibGluZngwbjBiNDlsNm1tYzgxemI1In0.eWqDiCXJHtbfxgF3-l9OgA";
+// pk.eyJ1Ijoia2lzZWtpMTEwNyIsImEiOiJjanRibGluZngwbjBiNDlsNm1tYzgxemI1In0.eWqDiCXJHtbfxgF3-l9OgA
+// pk.eyJ1Ijoia3VsaW5pIiwiYSI6ImNpeWN6bjJ0NjAwcGYzMnJzOWdoNXNqbnEifQ.jEzGgLAwQnZCv9rA6UTfxQ
