@@ -18,15 +18,15 @@ This data visualization project seeks to capture earthquake occurences and patte
 
 <a name="Introduction"></a>
 ## Introduction
-The United States Geological Survey (USGS) provides public scientific data sources that focus on the issues of climate impact, natual hazards, and environment and ecological resources in the United States. Their discipline ranges from topics in biology, geography, geology, and hydrology. The USGS collects data on earthquakes periodically and releases the information publically that can be obtained [here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
+The United States Geological Survey (USGS) provides public scientific data sources that focus on the issues of climate impact, natual hazards, and environment and ecological resources in the United States. Their discipline ranges from topics in biology, geography, geology, and hydrology. The USGS collects data on earthquakes periodically and releases the information publically which can be obtained [here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). Earthquake data can be collected from the past hour, the past day, the past week, or the past month. This project utilizes the earthquake data from the past 7 days which gets updated periodically.
 
 ![USGS Earthquake JSON data source](https://raw.githubusercontent.com/kiseki1107/leaflet_geomapping/master/Images/USGS_data_sample.png)
 
 <a name="Methods"></a>
 ### Methods
 * Data Cleaning
-* Data Manipulation
-* ETL
+* GeoJSON
+* Leaflet
 
 <a name="Technologies"></a>
 ### Technologies
