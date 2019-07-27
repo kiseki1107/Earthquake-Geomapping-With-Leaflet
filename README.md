@@ -44,13 +44,11 @@ Additonally, tectonic plates (orange lines) are displayed on the map visualizati
 
 The base map, provided by [Mapbox](https://www.mapbox.com/), can be viewed via satellite view, street view, or outdoors view based on user preference. In order to have retrieve the base maps, an API key is required for Mapbox to be accessible.
 
-Leaflet was used in order to create the geomapping of the earthquake and tectonic plate data onto the base map as overlays.
+[Leaflet](https://leafletjs.com/) was used in order to create the geomapping of the earthquake and tectonic plate data onto the base map as overlays.
 
 <a name="Notes"></a>
 ## Further Notes
-
-
-index.html will display the map
-static/css has one file, style.css which is used to set map margins
-static/js contains the app.js file which contains the JavaScript code that creates the map
-README.md is this file which contains a brief description
+The following follows are included in this repository:
+* [logic.js](https://github.com/kiseki1107/leaflet_geomapping/blob/master/logic.js) file contains the primary code for map creation.
+* [style.css](https://github.com/kiseki1107/leaflet_geomapping/blob/master/style.css) file contains the codes for designing and styling the map visualization.
+* [index.html](https://github.com/kiseki1107/leaflet_geomapping/blob/master/index.html) file will display the map.
