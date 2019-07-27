@@ -1,11 +1,7 @@
-Creating a geomap visualization of earthquake and tetonic plates data provided by the United States Geological Survey (USGS) via https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php.
-<hr>
-Languages used: JavaScript, HTML5, CSS
-
 ![USGS Logo Cover](https://raw.githubusercontent.com/kiseki1107/leaflet_geomapping/master/Images/USGS_logo.png)
 
 # USGS Earthquake Geomapping and Leaflet Data Visualization
-This application captures earthquake occurences and patterns around the world with data provided by the United States Geological Survey ([USGS](https://www.usgs.gov/)).
+This geomap application captures earthquake occurences and patterns around the world with data provided by the United States Geological Survey ([USGS](https://www.usgs.gov/)).
 
 ## Table of Contents
 * [Introduction](#Introduction)
@@ -40,7 +36,9 @@ The United States Geological Survey (USGS) provides public scientific data sourc
 
 <a name="DataVisualization"></a>
 ## Data Visualization
-[Click here](https://github.com/kiseki1107/ETL/blob/master/ETL.ipynb) for code reference.
+The following image is a result of the earthquake data obtain from USGS geoJSON files within the past week. Each circle represents the latitude and longitude of an earthquake occurrence with the varying sizes and color ranges being proportionally based on the magnitude intensity. The bigger the circle, the stronger the earthquake. The colors utilize the traffic light color scheme which depends increasing earthquake intensity from green to red. There is a color legend included in the visualization for earthquake magnitude reference. Each circle dataset can be clicked to bring a popup display of additional information about the earthquake event (ex: location, magnitude level, and time and date of event) 
+
+Additonally, tectonic plates (orange lines) are displayed on the map visualization to illustrate the relationship between tectonic plates and seismic activity. The tectonic plates data is another geoJSON file which can be obtained [here](https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json).
 
 ![Project Final Earthquake Image Sample](https://raw.githubusercontent.com/kiseki1107/leaflet_geomapping/master/earthquake_geomap.png)
 
