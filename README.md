@@ -36,11 +36,13 @@ The United States Geological Survey (USGS) provides public scientific data sourc
 
 <a name="DataVisualization"></a>
 ## Data Visualization
-The following image is a result of the earthquake data obtain from USGS geoJSON files within the past week. Each circle represents the latitude and longitude of an earthquake occurrence with the varying sizes and color ranges being proportionally based on the magnitude intensity. The bigger the circle, the stronger the earthquake. The colors utilize the traffic light color scheme which depends increasing earthquake intensity from green to red. There is a color legend included in the visualization for earthquake magnitude reference. Each circle dataset can be clicked to bring a popup display of additional information about the earthquake event (ex: location, magnitude level, and time and date of event) 
+The following image is a result of the earthquake data obtain from USGS geoJSON files within the past week. Each circle represents the latitude and longitude of an earthquake occurrence with the varying sizes and color ranges being proportionally based on the magnitude intensity. The bigger the circle, the stronger the earthquake. The colors utilize the traffic light color scheme which depicts increasing earthquake intensity from green to red. There is a color legend included in the map visualization for earthquake magnitude reference. Each circle dataset can be clicked to bring a popup display of additional information about the earthquake event (ex: location, magnitude level, and time and date of event) 
 
-Additonally, tectonic plates (orange lines) are displayed on the map visualization to illustrate the relationship between tectonic plates and seismic activity. The tectonic plates data is another geoJSON file which can be obtained [here](https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json).
+Additonally, tectonic plates (orange lines) are displayed on the map visualization as a secondary map overlay to illustrate the relationship between tectonic plates and seismic activity. The tectonic plates data is another geoJSON file which can be obtained [here](https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json).
 
 ![Project Final Earthquake Image Sample](https://raw.githubusercontent.com/kiseki1107/leaflet_geomapping/master/earthquake_geomap.png)
+
+The base map can be viewed via satellite view, street view, or outdoors view for user preference. There is an option to turn on or turn off the earthquake and tectonic plate data visuals with the checkboxes.
 
 <a name="Notes"></a>
 ## Further Notes
