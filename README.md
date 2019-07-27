@@ -49,6 +49,6 @@ The base map, provided by [Mapbox](https://www.mapbox.com/), can be viewed via s
 <a name="Notes"></a>
 ## Further Notes
 The following follows are included in this repository:
-* [logic.js](https://github.com/kiseki1107/leaflet_geomapping/blob/master/logic.js) file contains the primary code for map creation.
+* [logic.js](https://github.com/kiseki1107/leaflet_geomapping/blob/master/logic.js) file contains the primary code for the map creation.
 * [style.css](https://github.com/kiseki1107/leaflet_geomapping/blob/master/style.css) file contains the codes for designing and styling the map visualization.
 * [index.html](https://github.com/kiseki1107/leaflet_geomapping/blob/master/index.html) file will display the map.
